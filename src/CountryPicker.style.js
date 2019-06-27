@@ -51,8 +51,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     height: getHeightPercent(7),
     justifyContent: 'flex-start',
-    alignItems: 'center',
-    paddingHorizontal: 5
+    alignItems: 'center'
   },
   itemCountryFlag: {
     justifyContent: 'center',
@@ -61,19 +60,16 @@ export default StyleSheet.create({
     width: '15%'
   },
   itemCountryName: {
-    justifyContent: 'space-between',
-    flexDirection: 'row',
-    width: '100%',
+    justifyContent: 'center',
+    width: '70%',
     borderBottomWidth: 2 / PixelRatio.get(),
     borderBottomColor: '#ccc',
-    height: 22
-
+    height: 20
   },
   countryName: {
-    fontSize: getHeightPercent(2.2)
-  },
-  countryCode: {
-    textAlign: 'right'
+    fontSize: getHeightPercent(2.0),
+    color: "rgb(17,17,17)",
+    fontFamily: "MarkPro-Medium"
   },
   scrollView: {
     flex: 1
@@ -92,17 +88,17 @@ export default StyleSheet.create({
   },
   letterText: {
     textAlign: 'center',
-    fontSize: getHeightPercent(2.2)
+    fontSize: getHeightPercent(2.0),
+    fontFamily: "MarkPro-Bold"
   },
   closeButton: {
-    height: 48,
-    width: '15%',
     alignItems: 'center',
     justifyContent: 'center'
   },
   closeButtonImage: {
-    height: 24,
-    width: 24,
-    resizeMode: 'contain'
+    height: 45,
+    width: 45,
+    resizeMode: 'contain',
+    tintColor:'rgb(17,17,17)'
   }
 })
